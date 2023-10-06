@@ -1,0 +1,40 @@
+div#navbar, div#footer {
+	
+}
+
+
+div#content {
+	display: grid;
+	grid-template-rows: 4fr 1fr 5fr;
+}
+
+div#icon {
+	margin: 0 4rem;
+
+	background-image: url("../rsc/logo_white.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+div#website {
+	margin: auto;
+}
+
+div#website a {
+	display: inline-block;
+
+	padding: .5rem 2rem;
+
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+
+	background-color: rgba(59, 100, 214, 0.397);
+	border-radius: 1rem;
+}
+
+
+/* div#footer {
+	
+} */

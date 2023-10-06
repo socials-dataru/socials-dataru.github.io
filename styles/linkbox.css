@@ -1,0 +1,40 @@
+div#links {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	margin: 0 2rem;
+}
+
+div.linkbox {
+	margin: auto;
+
+	width:	5rem;
+	height:	5rem;
+
+	border-radius: 1rem;
+
+	/* background-color: black; */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+div.linkbox:hover {
+	cursor: pointer;
+}
+
+div.linkbox a {
+	width: 100%;
+	height: 100%;
+}
+
+div.linkbox img {
+	width: 100%;
+	height: 100%;
+}
+
+div.linkbox img:hover {
+	filter: blur(1rem);
+	transition: 2s;
+}
