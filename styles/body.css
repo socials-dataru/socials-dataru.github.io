@@ -1,5 +1,13 @@
-div#navbar, div#footer {
-	
+div#navbar {
+	/* background-image: url("../rsc/test.png");
+	background-size: cover;
+	background-repeat: no-repeat;  */
+}
+
+div#footer {
+	/* background-image: url("../rsc/bg_whires_white_B.png");
+	background-size: cover;
+	background-repeat: no-repeat;  */
 }
 
 
